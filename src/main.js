@@ -3,6 +3,10 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+// 初始化css
+import './assets/styles/reset.css'
+// 1px像素问题
+import './assets/styles/border.css'
 
 Vue.config.productionTip = false
 

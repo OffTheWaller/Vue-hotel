@@ -7,6 +7,10 @@ import router from './router'
 import './assets/styles/reset.css'
 // 1px像素问题
 import './assets/styles/border.css'
+//移动端点击延迟问题
+import fastClick from 'fastclick'
+
+fastClick.attach(document.body)
 
 Vue.config.productionTip = false
 

@@ -17,5 +17,9 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+### iconfont引入
+- 下载iconfont购物车中的文件
+- 在`main.js`中import`iconfont.css`
+- 修改`iconfont.css`中字体的引用路径
+- 将四个字体文件复制进`iconfont`文件夹
+- 使用时直接复制iconfont代码

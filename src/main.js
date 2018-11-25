@@ -9,6 +9,8 @@ import './assets/styles/reset.css'
 import './assets/styles/border.css'
 //移动端点击延迟问题
 import fastClick from 'fastclick'
+//引入iconfont
+import './assets/styles/iconfont.css'
 
 fastClick.attach(document.body)
 

@@ -23,3 +23,15 @@ npm run build --report
 - 修改`iconfont.css`中字体的引用路径
 - 将四个字体文件复制进`iconfont`文件夹
 - 使用时直接复制iconfont代码
+
+### swiper
+- `npm install vue-awesome-swiper --save`
+```javascript
+import Vue from 'vue'
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+
+// require styles
+import 'swiper/dist/css/swiper.css'
+
+Vue.use(VueAwesomeSwiper, /* { default global options } */)
+```

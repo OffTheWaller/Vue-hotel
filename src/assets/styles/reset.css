@@ -65,3 +65,6 @@ html {
 .clearfix {
     *zoom: 1;
 }
+.bg-color {
+  background: #c56b9c;
+}

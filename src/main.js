@@ -11,6 +11,10 @@ import './assets/styles/border.css'
 import fastClick from 'fastclick'
 //引入iconfont
 import './assets/styles/iconfont.css'
+//引入swiper
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+import 'swiper/dist/css/swiper.css'
+Vue.use(VueAwesomeSwiper)
 
 fastClick.attach(document.body)
 

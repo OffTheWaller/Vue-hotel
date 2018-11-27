@@ -45,7 +45,7 @@
 .wrapper >>> .swiper-pagination-bullet-active {
   background: #fff;
 }
-/* 利用wrapper固定swiper宽高比 */
+/* 利用wrapper固定swiper宽高比,撑开swiper位置 */
 .wrapper {
   width: 100%;
   height: 0;
@@ -55,7 +55,6 @@
   /* 设置一个图片未加载出来时的背景色 */
   background: #ccc;
 }
-
 .swiper-img {
   width: 100%;
 }

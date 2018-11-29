@@ -1,6 +1,6 @@
 <template>
   <div class="icons">
-    <swiper>
+    <swiper :options="swiperOption">
       <swiper-slide v-for="(page,index) in pages" :key="index">
         <div class="icon" v-for="item in page" :key="item.id">
           <div class="icon-img"><img class="icon-img-content" :src="item.imgUrl" /></div>
@@ -16,11 +16,14 @@ export default {
   name: 'HomeIcons',
   data () {
     return {
+      swiperOption: {
+        autoPlay: false
+      },
       iconList: [
         {
           id: '0001',
           imgUrl: '/static/images/icon-tag-001.jpg',
-          desc: '星级酒店'
+          desc: '餐饮服务'
         },
         {
           id: '0002',
@@ -29,23 +32,23 @@ export default {
         },
         {
           id: '0002',
-          imgUrl: '/static/images/icon-tag-002.jpg',
-          desc: '快捷酒店'
+          imgUrl: '/static/images/icon-tag-003.jpg',
+          desc: '美团外卖'
         },
         {
           id: '0002',
-          imgUrl: '/static/images/icon-tag-002.jpg',
-          desc: '快捷酒店'
+          imgUrl: '/static/images/icon-tag-004.jpg',
+          desc: '订餐服务'
         },
         {
           id: '0002',
-          imgUrl: '/static/images/icon-tag-002.jpg',
-          desc: '快捷酒店'
+          imgUrl: '/static/images/icon-tag-005.jpg',
+          desc: '最新电影'
         },
         {
           id: '0002',
-          imgUrl: '/static/images/icon-tag-002.jpg',
-          desc: '快捷酒店'
+          imgUrl: '/static/images/icon-tag-006.jpg',
+          desc: '热门景点'
         }
       ]
     }

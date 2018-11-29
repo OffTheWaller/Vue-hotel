@@ -3,7 +3,7 @@
     <div class="header-left"><span class="iconfont">&#xe8b5;</span>返回</div>
     <div class="header-search">
       <span class="iconfont icon-search">&#xe86e;</span>
-      <input type="text" placeholder="请输入酒店名">
+      <input type="text" placeholder="请输入地名">
     </div>
     <div class="header-right">城市<span class="iconfont">&#xe87e;</span></div>
 

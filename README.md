@@ -1,4 +1,4 @@
-# hotel
+# travel
 
 > A Vue.js project
 

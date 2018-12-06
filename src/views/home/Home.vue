@@ -2,6 +2,7 @@
   <div class="home">
     <home-header></home-header>
     <home-swiper :list="swiperList"></home-swiper>
+    <home-recommend :list="recommendList"></home-recommend>
   </div>
 </template>
 
@@ -9,17 +10,20 @@
 // @ is an alias to /src
 import HomeHeader from './components/Header'
 import HomeSwiper from './components/Swiper'
+import HomeRecommend from './components/Recommend'
 import axios from 'axios'
 
 export default {
   name: 'Home',
   components: {
     HomeHeader,
-    HomeSwiper
+    HomeSwiper,
+    HomeRecommend
   },
   data () {
     return {
-      swiperList: []
+      swiperList: [],
+      recommendList: []
     }
   },
   methods: {
@@ -32,6 +36,7 @@ export default {
       if (res.ret && res.data) {
         const data = res.data;
         this.swiperList = data.swiperList;
+        this.recommendList = data.recommendList;
       }
     }
   },
